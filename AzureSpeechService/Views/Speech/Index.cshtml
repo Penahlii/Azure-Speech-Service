@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Text to Speech";
+}
+
+<h1>Text to Speech</h1>
+
+<form method="post" action="/Speech/Synthesize">
+    <textarea name="text" rows="5" cols="50" placeholder="Enter text here"></textarea>
+    <br />
+    <button type="submit">Convert to Speech</button>
+</form>
